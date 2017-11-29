@@ -11,6 +11,6 @@ public class GreetingsResource {
     
     @GET
     public JsonObject greetings() {
-        return Json.createObjectBuilder().add("Hello", "World").build();
+        return Json.createObjectBuilder().add("salutation", "hello world!").build();
     }
 }
